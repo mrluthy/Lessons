@@ -91,6 +91,26 @@
 # else:
 #     print("Run its a monster!")
 
+# Easy problem:
+# if 1:
+#     print(True)
+
+
+# Harder problem:
+# choice = input("Pick either a burger, nuggets, fry, drink, or shake: ")
+# if choice.lower() == "burger":
+#     print(2.99)
+# elif choice.lower() == "nuggets":
+#     print(1.99)
+# elif choice.lower()== "fry":
+#     print(1.50)
+# elif choice.lower() == "drink":
+#     print(.99)
+# elif choice.lower() == "shake":
+#     print(3.99)
+# else:
+#     print("Bad choice")
+
 
 # For Loops repeat a process for a limited number of times.
     # For for target in object: do something
@@ -135,6 +155,18 @@
 #         new_range += number
 # print(new_range)
 
+
+# Easy:
+# mylist = ["Sir Robin", "King Arthur", "The knights who say 'Ni'", "A duck!"]
+#
+# for item in mylist:
+#     print(item)
+
+# Harder challenge:
+# T = [(1,2),(3,4), (5,6)]
+# for num1, num2 in T:
+#     print(num1, num2)
+
 # Break in a For Loop: Break stops the loop before it has looped through all of the items.
 
 # Examples:
@@ -174,6 +206,18 @@
 #     print(target)
 #     if target == "Bread":
 #         continue
+
+# Easy:
+# mystr = "python"
+# for letter in mystr:
+#     if letter == "h":
+#         break
+#     print(letter)
+
+# Hard challenge:
+# mylist = [(1,2,3), (4,5,6), (7,8,9)]
+# for num1, num2, num3 in mylist:
+#     print(num1, num2, num3)
 
 # Challenge: Print out a list of 10 grocery items using print, break, continue, for and if.
 
@@ -262,6 +306,19 @@
 #     print(grocery_list)
 #     grocery_list = grocery_list[1:]
 
+# Easy:
+# a = 0
+# b = 10
+#
+# while a < b:
+#     print(a)
+#     a += 1
+
+# Hard challenge: print a pattern that prints a total of 6 items and subtracts 1 value through each value.
+# hello = ["h","e", "l", "l", "o", ":)"]
+# while hello:
+#     print(hello)
+#     hello = hello[1:]
 
 # Challenge: Using your grocery list of 10 items, use a while loop, for loop, if statement.
 #
@@ -275,4 +332,6 @@
 #             break
 #         print(target)
 #     grocery_list = grocery_list[1:]
+
+
 
